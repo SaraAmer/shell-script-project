@@ -13,7 +13,7 @@ it contains the functions of check in the application :
 a. the apache is installed in this machine or not
 b.The virtual host the user choose to do actions on exist or not 
 c.htpass file exists or not when the user want to add some authenticatios
-d. the user is root or in the soudo group 
+d. the user is root or in the sudo group 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 2. ApacheControl.sh
 -------------------
