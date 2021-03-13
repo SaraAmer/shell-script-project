@@ -1,0 +1,44 @@
+Exit codes
+----------
+0 => the user 
+1 => not a root or in the sudo group 
+--------------------------------------------------------------------------------------------------------------------------------------------
+Main.sh
+---------
+The Start point of the script you can run it by using  ./Main.sh
+----------------------------------------------------------------------------------------------------------------------------------------------
+1.Validation.sh 
+----------------
+it contains the functions of check in the application :
+a. the apache is installed in this machine or not
+b.The virtual host the user choose to do actions on exist or not 
+c.htpass file exists or not when the user want to add some authenticatios
+d. the user is root or in the soudo group 
+---------------------------------------------------------------------------------------------------------------------------------------------
+2. ApacheControl.sh
+-------------------
+it contains the actions like:
+a.install apache2
+b.uninstall apache2
+--------------------------------------------------------------------------------------------------------------------------------------------
+3.authentication.sh 
+-------------------
+it contains the actions like:
+add authentication for a specific vertiual host
+delete authentication from a specific vertiual host
+----------------------------------------------------------------------------------------------------------------------------------------------
+4.Vertiual host
+---------------
+check if Apache2 installed
+if not installed echo to the user it's not installed and ask if he want to install 
+add new virtual host
+deleted vertiual host check if it exists
+disable virtual host
+enable virtual host
+----------------------------------------------------------------------------------------------------------------------------------------------
+5. Menu.sh
+-----------
+display main menu with different options
+check if apache2 installed
+if installed the user can got to virtual hosts menu by click 3
+----------------------------------------------------------------------------------------------------------------------------------------------
